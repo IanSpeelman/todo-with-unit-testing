@@ -1,0 +1,29 @@
+.form{
+  width: 500px;
+  display: flex;
+  margin: 50px auto;
+  box-shadow: 0 5px 5px rgba(0,0,0,.2)
+  
+}
+.input{
+  width: 100%;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 1em;
+  font-family: mono;
+}
+.input:focus{
+  border: 1px solid rgba(0,0,0,.15);
+  outline: none;
+}
+.button{
+  padding: .5em 3em;
+  border: none;
+  background-color: #fccf03;
+  border-radius: 0 .5em .5em 0;
+  font-family: mono;
+}
+@media screen and (max-width: 580px){
+  .form{
+    max-width: 380px;
+  }
+}
